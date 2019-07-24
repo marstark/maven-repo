@@ -126,10 +126,8 @@
                     <includes>
                         <include>**/*</include>
                     </includes>
-                    <repositoryName>maven-repo</repositoryName>
-                    <!-- 对应github上创建的仓库名称 name -->
                     <repositoryOwner>marstark</repositoryOwner>
-                    <!-- github 仓库所有者 -->
+                    <repositoryName>maven-repo</repositoryName>
                 </configuration>
                 <executions>
                     <execution>
@@ -142,5 +140,16 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>mvn-repo</id>
+            <url>https://raw.github.com/marstark/mvn-repo/master</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 
 </project>
