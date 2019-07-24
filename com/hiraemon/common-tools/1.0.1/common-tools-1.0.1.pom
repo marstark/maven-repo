@@ -7,7 +7,7 @@
 
     <groupId>com.hiraemon</groupId>
     <artifactId>common-tools</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>java 工具箱</name>
 
