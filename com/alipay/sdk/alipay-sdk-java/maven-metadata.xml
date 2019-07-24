@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.alipay.sdk</groupId>
+  <artifactId>alipay-sdk-java</artifactId>
+  <versioning>
+    <release>3.7.110.ALL</release>
+    <versions>
+      <version>3.7.110.ALL</version>
+    </versions>
+    <lastUpdated>20190724091735</lastUpdated>
+  </versioning>
+</metadata>
